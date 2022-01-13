@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- BOOTSTRAP LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- FontAwesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <div class="container border-1">
+        <div class="row my-5 main-header">
+            <div class="col-md-6 col-sm-12 text-center heading  ">
+                <i class="fas fa-stopwatch fs-1"></i>
+                <span class="h1">STOP WATCH</span>
+                <i class="fas fa-stopwatch fs-1"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row main-header">
+            <div class="col-md-8 col-sm-12 text-center my-5">
+                <div class="heading">
+                    <span id="min" class="fs-1 border px-4">0 </span><b class="fs-2 mx-4">:</b>
+                    <span id="sec" class="fs-1 border px-4">0 </span><b class="fs-2 mx-4">:</b>
+                    <span id="msec" class="fs-1 border px-4">0</span>
+                    <br>
+                    <br>
+                    <button onclick="start()" id="strtbtn" class="btn btn-lg btn-danger mx-4 my-2">Start</button>
+                    <button onclick="stop()" id="stopbtn"class="btn btn-lg btn-danger mx-4 my-2">Pause</button>
+                    <button onclick="reset()" id="resbtn" class="btn btn-lg btn-danger mx-4 my-2">Reset</button>
+                
+                  <h3 id="get" class="border "> </h3>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<!-- custom js -->
+<script src="app.js"></script>
+
+</html>
